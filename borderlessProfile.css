@@ -1,0 +1,14 @@
+/* borderless profiles*/
+:root {
+    --custom-user-profile-themed-container-user-profile-themed-padding: 0;
+}
+
+[class^="userPopoutInner_"]:before {
+    width: 100%;
+    height: 100%;
+}
+
+[class^="bannerSVGWrapper_"] circle {
+    cx: 62;
+    cy: 116;
+}
